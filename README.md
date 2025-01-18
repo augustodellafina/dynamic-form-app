@@ -2,6 +2,10 @@
 
 > A modern React application that generates dynamic forms with real-time validation and a clean UI.
 
+<div align="center">
+  <img src="public/image.jpg" alt="Dynamic Form App" style="border-radius: 8px; max-width: 800px; width: 100%;" />
+</div>
+
 ## 🌟 Overview
 
 This project showcases a dynamic form generation system built with React, TypeScript, and Material-UI. It demonstrates modern web development practices and clean architecture principles.
@@ -111,7 +115,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License
+
+---
+
+<br />
 
 ---
 
