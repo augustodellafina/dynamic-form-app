@@ -3,7 +3,7 @@
 > A modern React application that generates dynamic forms with real-time validation and a clean UI.
 
 <div align="center">
-  <img src="public/image.jpg" alt="Dynamic Form App" style="border-radius: 8px; max-width: 800px; width: 100%;" />
+  <img src="public/image.jpg" alt="Dynamic Form App" style="border-radius: 12px; max-width: 800px; width: 100%;" />
 </div>
 
 ## 🌟 Overview
@@ -20,6 +20,7 @@ This project showcases a dynamic form generation system built with React, TypeSc
 - **ESLint** - JavaScript linting utility
 - **Prettier** - Code formatter
 - **Jest** - Testing framework
+- **GitHub Copilot** - AI-powered code assistant
 
 ## 🏗️ Architecture
 
