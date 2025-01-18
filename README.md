@@ -66,11 +66,11 @@ The application follows a component-based architecture with these key features:
 
 ## 🚀 Getting Started
 
-## Prerequisites
+### Prerequisites
 - Node.js (v16 or higher)
 - Yarn or NPM package manager
 
-## Installation
+### Installation
 1. **Clone & Install**
 ```bash
 git clone https://github.com/augustodellafina/dynamic-form-app.git
