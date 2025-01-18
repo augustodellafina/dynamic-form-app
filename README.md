@@ -6,6 +6,17 @@
 
 This project showcases a dynamic form generation system built with React, TypeScript, and Material-UI. It demonstrates modern web development practices and clean architecture principles.
 
+## 🛠️ Technologies Used
+
+- **React 18** - JavaScript library for building user interfaces
+- **TypeScript** - Static typing for JavaScript
+- **Material-UI** - React UI component library
+- **Vite** - Next-generation frontend tooling
+- **Styled Components** - CSS-in-JS styling
+- **ESLint** - JavaScript linting utility
+- **Prettier** - Code formatter
+- **Jest** - Testing framework
+
 ## 🏗️ Architecture
 
 The application follows a component-based architecture with these key features:
@@ -28,7 +39,7 @@ src/
 ├── utils/
 │   └── validation.ts    # Form validation utilities
 └── config/
-    └── companies.json   # Company configurations
+  └── companies.json   # Company configurations
 ```
 
 ## 🧩 Design Patterns & Best Practices
@@ -85,20 +96,6 @@ npm run build
 - 📋 Textareas
 - 🚨 Error messages
 - ✅ Success notifications
-
-## 🛠️ Technical Stack
-
-- **React 18** with TypeScript
-- **Material-UI** for component library
-- **Styled Components** for styling
-- **Vite** for build tooling
-
-## 🔍 Code Quality
-
-- 💯 TypeScript for type safety
-- 🧹 ESLint for code quality
-- 💅 Prettier for code formatting
-- 🧪 Jest for testing
 
 ## 📈 Future Improvements
 
