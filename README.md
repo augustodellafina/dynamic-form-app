@@ -75,17 +75,17 @@ The application follows a component-based architecture with these key features:
 ```bash
 git clone https://github.com/augustodellafina/dynamic-form-app.git
 cd dynamic-form-app
-yarn install or npm install
+yarn install OR npm install
 ```
 
 2. **Development**
 ```bash
-yarn dev or npm run dev
+yarn dev OR npm run dev
 ```
 
 3. **Building**
 ```bash
-yarn build or npm run build
+yarn build OR npm run build
 ```
 
 ## 💡 Features
