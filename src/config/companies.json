@@ -1,0 +1,269 @@
+{
+  "Company1": {
+    "FormFields": [
+      {
+        "Label": "Nome Colaborador",
+        "Type": "text",
+        "Icon": "Person",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Email",
+        "Type": "email",
+        "Icon": "AlternateEmail",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "No de Empregado",
+        "Type": "text",
+        "Icon": "Badge",
+        "Validation": {
+          "required": true,
+          "pattern": "^[a-zA-Z0-9]{7}$"
+        }
+      }
+    ]
+  },
+  "Company2": {
+    "FormFields": [
+      {
+        "Label": "Nome Cliente",
+        "Type": "text",
+        "Icon": "AccountCircle",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Email",
+        "Type": "email",
+        "Icon": "AlternateEmail",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Data do Pedido",
+        "Type": "date",
+        "Icon": "CalendarToday",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Comentário",
+        "Type": "textarea",
+        "Icon": "Comment"
+      }
+    ]
+  },
+  "Company3": {
+    "FormFields": [
+      {
+        "Label": "NIF",
+        "Type": "number",
+        "Icon": "Numbers",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Telemóvel",
+        "Type": "number",
+        "Icon": "Smartphone",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Email",
+        "Type": "email",
+        "Icon": "AlternateEmail",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Departamentos",
+        "Type": "select",
+        "Icon": "AccountTree",
+        "Options": ["Human Resources", "Finance", "IT"],
+        "Validation": {
+          "required": true
+        }
+      }
+    ]
+  },
+  "Company4": {
+    "FormFields": [
+      {
+        "Label": "Project Title",
+        "Type": "text",
+        "Icon": "WorkOutline",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Start Date",
+        "Type": "date",
+        "Icon": "Event",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Team Size",
+        "Type": "number",
+        "Icon": "Groups",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Project Type",
+        "Type": "select",
+        "Icon": "Category",
+        "Options": ["Internal", "Client", "Research", "Maintenance"],
+        "Validation": {
+          "required": true
+        }
+      }
+    ]
+  },
+  "Company5": {
+    "FormFields": [
+      {
+        "Label": "Ticket ID",
+        "Type": "text",
+        "Icon": "Tag",
+        "Validation": {
+          "required": true,
+          "pattern": "^TK-[0-9]{6}$"
+        }
+      },
+      {
+        "Label": "Priority Level",
+        "Type": "select",
+        "Icon": "PriorityHigh",
+        "Options": ["Low", "Medium", "High", "Critical"],
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Description",
+        "Type": "textarea",
+        "Icon": "Subject",
+        "Validation": {
+          "required": true
+        }
+      }
+    ]
+  },
+  "Company6": {
+    "FormFields": [
+      {
+        "Label": "Campaign Name",
+        "Type": "text",
+        "Icon": "Campaign",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Target Audience",
+        "Type": "select",
+        "Icon": "Groups",
+        "Options": ["Students", "Professionals", "Seniors", "All"],
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Budget",
+        "Type": "number",
+        "Icon": "Payments",
+        "Validation": {
+          "required": true
+        }
+      }
+    ]
+  },
+  "Company7": {
+    "FormFields": [
+      {
+        "Label": "Vehicle Model",
+        "Type": "text",
+        "Icon": "DirectionsCar",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Service Type",
+        "Type": "select",
+        "Icon": "Build",
+        "Options": ["Oil Change", "Tire Rotation", "Brake Service", "Full Inspection"],
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Mileage",
+        "Type": "number",
+        "Icon": "Speed",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Notes",
+        "Type": "textarea",
+        "Icon": "Note"
+      }
+    ]
+  },
+  "Company8": {
+    "FormFields": [
+      {
+        "Label": "Room Number",
+        "Type": "text",
+        "Icon": "Meeting",
+        "Validation": {
+          "required": true,
+          "pattern": "^[A-Z]-[0-9]{3}$"
+        }
+      },
+      {
+        "Label": "Check-in Date",
+        "Type": "date",
+        "Icon": "Event",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Duration (nights)",
+        "Type": "number",
+        "Icon": "Bed",
+        "Validation": {
+          "required": true
+        }
+      },
+      {
+        "Label": "Room Type",
+        "Type": "select",
+        "Icon": "HomeWork",
+        "Options": ["Single", "Double", "Suite", "Penthouse"],
+        "Validation": {
+          "required": true
+        }
+      }
+    ]
+  }
+}
