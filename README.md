@@ -1,4 +1,4 @@
-# 🎯 Dynamic Form Generator
+# 🧾 Dynamic Form Generator
 
 > A modern React application that generates dynamic forms with real-time validation and a clean UI.
 
@@ -33,17 +33,19 @@ The application follows a component-based architecture with these key features:
 ### Key Components
 
 ```
-src/
-├── components/
-│   ├── Select/           # Reusable select component
-│   ├── FormGenerator/    # Dynamic form renderer
-│   └── CompanySelector/  # Company selection handling
-├── styles/
-│   └── theme.ts         # Global styling and theming
-├── utils/
-│   └── validation.ts    # Form validation utilities
-└── config/
-  └── companies.json   # Company configurations
+📁 public/
+├── 📄 image.jpg
+📁 src/
+├── 📁 components/
+│   ├── 📁 Select/           # Reusable select component
+│   ├── 📁 FormGenerator/    # Dynamic form renderer
+│   └── 📁 CompanySelector/  # Company selection handling
+├── 📁 styles/
+│   └── 📄 theme.ts         # Global styling and theming
+├── 📁 utils/
+│   └── 📄 validation.ts    # Form validation utilities
+└── 📁 config/
+    └── 📄 companies.json   # Company configurations
 ```
 
 ## 🧩 Design Patterns & Best Practices
@@ -116,10 +118,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📝 License
 
 This project is licensed under the MIT License
-
----
-
-<br />
 
 ---
 
