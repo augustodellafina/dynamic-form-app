@@ -66,21 +66,26 @@ The application follows a component-based architecture with these key features:
 
 ## 🚀 Getting Started
 
+## Prerequisites
+- Node.js (v16 or higher)
+- Yarn or NPM package manager
+
+## Installation
 1. **Clone & Install**
 ```bash
 git clone https://github.com/augustodellafina/dynamic-form-app.git
 cd dynamic-form-app
-npm install
+yarn install or npm install
 ```
 
 2. **Development**
 ```bash
-npm run dev
+yarn dev or npm run dev
 ```
 
 3. **Building**
 ```bash
-npm run build
+yarn build or npm run build
 ```
 
 ## 💡 Features
@@ -103,14 +108,6 @@ npm run build
 - 📋 Textareas
 - 🚨 Error messages
 - ✅ Success notifications
-
-## 📈 Future Improvements
-
-- [ ] Add more field types
-- [ ] Implement field dependencies
-- [ ] Add form state persistence
-- [ ] Create form templates
-- [ ] Add animation effects
 
 ## 🤝 Contributing
 

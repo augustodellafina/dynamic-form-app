@@ -10,7 +10,7 @@ export default defineConfig({
       plugins: [['@swc/plugin-emotion', {}]]
     })
   ],
-  base: './', // Add this line to handle relative paths
+  base: '/', // Change from './' to '/'
   build: {
     rollupOptions: {
       output: {
@@ -44,6 +44,7 @@ export default defineConfig({
     port: 3000,
     strictPort: true,
     host: true,
+    open: true // Add this to open browser automatically
   },
   resolve: {
     alias: {
